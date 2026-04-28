@@ -1,0 +1,1594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Working With Children, Families, and Communities in Contemporary Society</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-neutral-50 text-neutral-900 antialiased">
+
+  <!-- Navigation -->
+  <nav class="glass-nav fixed top-0 left-0 right-0 z-50 h-20 border-b border-neutral-200/50">
+    <div class="max-w-7xl mx-auto h-full px-6 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="#hero" class="flex items-center gap-3 flex-shrink-0">
+        <img src="https://z-cdn-media.chatglm.cn/files/bfbcfa92-8e17-4cf3-a750-a43dacaa0aca.png?auth_key=1877110271-a73d8fd435534c6484c16e907910e594-0-dc97d2fe62ba7e11bd0da3568cd30b63" alt="Logo" class="h-12 w-auto object-contain">
+      </a>
+      <!-- Desktop Nav -->
+      <div class="hidden lg:flex items-center gap-6">
+        <a href="#economic" class="nav-link text-sm font-medium text-neutral-500">Economic</a>
+        <a href="#social" class="nav-link text-sm font-medium text-neutral-500">Social</a>
+        <a href="#cultural" class="nav-link text-sm font-medium text-neutral-500">Cultural & Diversity</a>
+        <a href="#health" class="nav-link text-sm font-medium text-neutral-500">Health & Wellbeing</a>
+        <a href="#crisis" class="nav-link text-sm font-medium text-neutral-500">Crisis & Emergency</a>
+        <a href="#about" class="nav-link text-sm font-medium" style="color:#ec4899;">About</a>
+        <a href="#reference" class="nav-link text-sm font-medium" style="color:#06b6d4;">Reference</a>
+      </div>
+      <!-- Mobile Toggle -->
+      <button id="menuToggle" class="lg:hidden p-2 text-neutral-900">
+        <span class="iconify" data-icon="lucide:menu" data-width="24" data-height="24"></span>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu lg:hidden bg-white border-b border-neutral-200">
+      <div class="px-6 py-4 flex flex-col gap-3">
+        <a href="#economic" class="nav-link text-sm font-medium text-neutral-500 py-2">Economic Contexts</a>
+        <a href="#social" class="nav-link text-sm font-medium text-neutral-500 py-2">Social Contexts</a>
+        <a href="#cultural" class="nav-link text-sm font-medium text-neutral-500 py-2">Cultural & Diversity Contexts</a>
+        <a href="#health" class="nav-link text-sm font-medium text-neutral-500 py-2">Health & Wellbeing Contexts</a>
+        <a href="#crisis" class="nav-link text-sm font-medium text-neutral-500 py-2">Crisis & Emergency Contexts</a>
+        <a href="#about" class="nav-link text-sm font-medium py-2" style="color:#ec4899;">About</a>
+        <a href="#reference" class="nav-link text-sm font-medium py-2" style="color:#06b6d4;">Reference</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="relative pt-24 lg:pt-32 pb-12 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid lg:grid-cols-12 gap-8 items-center">
+        <!-- Left Content -->
+        <div class="lg:col-span-7 space-y-8">
+          <div>
+            <span class="inline-block text-xs font-semibold tracking-[0.1em] uppercase text-neutral-500 font-mono mb-4"></span>
+            <h1 class="font-oswald font-medium text-[40px] md:text-[56px] lg:text-[72px] leading-[0.9] tracking-[-0.05em] uppercase" style="background: linear-gradient(135deg,#f59e0b,#ec4899,#8b5cf6,#3b82f6); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;">
+              Working With Children, Families, and Communities
+            </h1>
+            <p class="mt-4 font-oswald text-[20px] md:text-[24px] font-light tracking-[-0.025em] text-neutral-500">
+              In Contemporary Society
+            </p>
+          </div>
+          <p class="text-base md:text-lg font-light leading-relaxed text-neutral-600 max-w-xl">
+            A comprehensive exploration of the diverse contexts shaping children's lives in modern Australia — from economic pressures and social dynamics to cultural identities, health challenges, and crisis responses.Early childhood services play a vital role in supporting children and families facing social, cultural, economic, health, and crisis-related challenges. Children’s development is influenced by family relationships, home environments, community support, and wider social conditions, making it important for educators to understand how these contexts shape learning, wellbeing, and identity. Research shows that responsive early childhood education can improve outcomes for children experiencing disadvantage by providing stability, belonging, and quality learning experiences (Inquiry Report - Mental Health, 2020). This portfolio explores five key contexts affecting Australian children and families: housing stress, isolation, First Nations family experiences, parental mental illness, and displacement. Guided by the Early Years Learning Framework (EYLF V2.0), it promotes inclusive, culturally safe, and trauma-informed practice (ACECQA, 2022).
+          </p>
+          <div class="flex flex-wrap gap-3 pt-2">
+            <a href="#economic" class="inline-flex items-center gap-2 bg-neutral-900 hover:bg-neutral-800 text-neutral-50 text-xs font-semibold tracking-[0.05em] uppercase px-7 py-3.5 rounded-full transition-colors">
+              Explore Contexts
+              <span class="iconify" data-icon="lucide:arrow-down" data-width="14" data-height="14"></span>
+            </a>
+            <a href="#overview" class="inline-flex items-center gap-2 bg-white hover:bg-neutral-100 text-neutral-900 text-xs font-semibold tracking-[0.05em] uppercase px-7 py-3.5 rounded-full border border-neutral-200 transition-colors">
+              Overview
+            </a>
+          </div>
+        </div>
+        <!-- Right Visual -->
+        <div class="lg:col-span-5 flex justify-center lg:justify-end">
+          <div class="relative">
+            <div class="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl border-4 border-white">
+              <img src="https://z-cdn-media.chatglm.cn/files/d989301c-1077-4004-a0c6-5eeaf135777b.png?auth_key=1877373951-19d535b40e384d5bb23c327d6e0629a9-0-a5c8aa6bd3728e900f52d0f46f14d5d8" alt="Children and Community" class="w-full h-full object-cover">
+            </div>
+            <div class="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-lg p-4 border border-neutral-200/50">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full flex items-center justify-center" style="background:linear-gradient(135deg,#8b5cf6,#3b82f6);">
+                  <span class="iconify text-neutral-50" data-icon="lucide:book-open" data-width="18" data-height="18"></span>
+                </div>
+                <div>
+                  <p class="text-xs font-semibold text-neutral-900">5 Contexts</p>
+                  <p class="text-xs text-neutral-500">30 Topics</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Overview Bar -->
+  <section id="overview" class="py-12 border-y border-neutral-200/50 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-2 md:grid-cols-7 gap-6 md:gap-4">
+        <a href="#economic" class="group flex flex-col items-center text-center gap-3 py-4 rounded-2xl hover:bg-amber-50 transition-colors">
+          <div class="w-12 h-12 rounded-xl ov-eco flex items-center justify-center transition-colors">
+            <span class="iconify" data-icon="lucide:trending-up" data-width="22" data-height="22"></span>
+          </div>
+          <span class="text-xs font-semibold tracking-[0.025em] text-neutral-900">Economic Contexts</span>
+        </a>
+        <a href="#social" class="group flex flex-col items-center text-center gap-3 py-4 rounded-2xl hover:bg-blue-50 transition-colors">
+          <div class="w-12 h-12 rounded-xl ov-soc flex items-center justify-center transition-colors">
+            <span class="iconify" data-icon="lucide:users" data-width="22" data-height="22"></span>
+          </div>
+          <span class="text-xs font-semibold tracking-[0.025em] text-neutral-900">Social Contexts</span>
+        </a>
+        <a href="#cultural" class="group flex flex-col items-center text-center gap-3 py-4 rounded-2xl hover:bg-violet-50 transition-colors">
+          <div class="w-12 h-12 rounded-xl ov-cul flex items-center justify-center transition-colors">
+            <span class="iconify" data-icon="lucide:globe" data-width="22" data-height="22"></span>
+          </div>
+          <span class="text-xs font-semibold tracking-[0.025em] text-neutral-900">Cultural & Diversity</span>
+        </a>
+        <a href="#health" class="group flex flex-col items-center text-center gap-3 py-4 rounded-2xl hover:bg-emerald-50 transition-colors">
+          <div class="w-12 h-12 rounded-xl ov-hlt flex items-center justify-center transition-colors">
+            <span class="iconify" data-icon="lucide:heart-pulse" data-width="22" data-height="22"></span>
+          </div>
+          <span class="text-xs font-semibold tracking-[0.025em] text-neutral-900">Health & Wellbeing</span>
+        </a>
+        <a href="#crisis" class="group flex flex-col items-center text-center gap-3 py-4 rounded-2xl hover:bg-red-50 transition-colors col-span-2 md:col-span-1">
+          <div class="w-12 h-12 rounded-xl ov-cri flex items-center justify-center transition-colors">
+            <span class="iconify" data-icon="lucide:shield-alert" data-width="22" data-height="22"></span>
+          </div>
+          <span class="text-xs font-semibold tracking-[0.025em] text-neutral-900">Crisis & Emergency</span>
+        </a>
+        <a href="#about" class="group flex flex-col items-center text-center gap-3 py-4 rounded-2xl hover:bg-pink-50 transition-colors">
+          <div class="w-12 h-12 rounded-xl ov-abt flex items-center justify-center transition-colors">
+            <span class="iconify" data-icon="lucide:info" data-width="22" data-height="22"></span>
+          </div>
+          <span class="text-xs font-semibold tracking-[0.025em] text-neutral-900">About</span>
+        </a>
+        <a href="#reference" class="group flex flex-col items-center text-center gap-3 py-4 rounded-2xl hover:bg-cyan-50 transition-colors">
+          <div class="w-12 h-12 rounded-xl ov-ref flex items-center justify-center transition-colors">
+            <span class="iconify" data-icon="lucide:book-marked" data-width="22" data-height="22"></span>
+          </div>
+          <span class="text-xs font-semibold tracking-[0.025em] text-neutral-900">Reference</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 1: ECONOMIC CONTEXTS ==================== -->
+  <section id="economic" class="py-20 md:py-24 bg-neutral-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <!-- Section Header -->
+      <div class="mb-12">
+        <span class="inline-block text-xs font-semibold tracking-[0.1em] uppercase text-neutral-400 font-mono mb-3"></span>
+        <div class="flex items-start gap-5">
+          <div class="w-14 h-14 rounded-2xl section-icon-box flex items-center justify-center flex-shrink-0">
+            <span class="iconify text-neutral-50" data-icon="lucide:trending-up" data-width="26" data-height="26"></span>
+          </div>
+          <div>
+            <h2 class="font-oswald text-[30px] md:text-[36px] font-medium tracking-[-0.025em] uppercase" style="color:#92400e;">Economic Contexts</h2>
+            <p class="mt-2 text-base md:text-lg font-light leading-relaxed text-neutral-500 max-w-2xl"></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion Items -->
+      <div class="space-y-3">
+
+        <!-- 1.1 Understanding the Context -->
+        <div class="section-card bg-white rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">01</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Understanding the Context</h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-100 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Housing stress develops when families spend a large proportion of their income on housing, causing to financial pressure and reduced access to necessities. In Australia, rising housing costs and living expenses have made this a major concern for many families, especially those on low or unstable incomes (Australian Institute of Health and Welfare, 2023). This setting is significantly relevant to early childhood education, as children’s home surroundings directly influence their wellbeing, sense of security, and ability to engage in learning.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">From a social point of view, Bronfenbrenner’s ecological systems theory explains that a child’s development is influenced by their immediate environment, including family and living surroundings (Hardcastle et al., 1981). Instability of housing can affect this environment, affecting children’s emotional and developmental growths. In addition, theories of social inequality emphasize how limited financial resources can restrict access to opportunities and services (ACOSS and UNSW SYDNEY POVERTY in AUSTRALIA 2020, 2020).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">In Australia, housing stress hits different groups, including single-parent families, migrants, and increasingly, working families, showing its evolving and global nature.</p>
+                </div>
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/dfe4896b-ab53-4a06-9b78-500fb601ac69.png?auth_key=1877356098-ff12215990b543f8b0e8b00040f3e3d2-0-744e840e217d59ba1208268fd668328e" alt="Economic Context" class="w-full h-auto">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- 1.2 Impact on Children and Families -->
+        <div class="section-card bg-white rounded-2xl border border-neutral-200/50 overflow-hidden">
+  <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+    <div class="flex items-center gap-4">
+      <span class="sub-section-num text-sm font-medium text-neutral-400">02</span>
+      <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Impact on Children and Families</h3>
+    </div>
+    <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+  </button>
+  
+  <div class="accordion-content px-6 md:px-8">
+    <div class="pb-6 border-t border-neutral-100 pt-5">
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        
+        <div class="space-y-4">
+          <p class="text-sm font-light leading-relaxed text-neutral-600">Housing stress can impact significantly children’s growth, learning, and overall wellbeing. Economical pressure and unstable living circumstances may create stress within the family, which may affect children’s emotional security and behaviour. Children dealing housing stress may show symptoms of anxiety, tiredness, or difficulty concentrating, which can affect their engagement in learning and social activities (Australian Institute of Health and Welfare, 2023). insufficient access to stable housing can also disrupt routines, resulting to irregular attendance in early childhood settings and fewer opportunities for consistent learning and growth.</p>
+          <p class="text-sm font-light leading-relaxed text-neutral-600">Relationships inside families may also be affected, as parental stress can impair the capacity to provide responsive and nurturing relationships. This can impact children’s sense of belonging and confidence, which are key aspects of the Early Years Learning Framework (ACECQA, 2022).</p>
+          <p class="text-sm font-light leading-relaxed text-neutral-600">For early childhood settings, housing stress emphasizes the need for flexible and inclusive strategies. Early childhood teachers may need to provide additional emotional support, maintain predictable routines, and build strong partnerships with families. Services also play a vital role in connecting families to community resources, making sure that children’s learning and wellbeing are effectively supported despite challenging situations.</p>
+        </div>
+
+        <div class="rounded-xl overflow-hidden">
+          <img src="https://z-cdn-media.chatglm.cn/files/b443ec6d-fe65-4852-8fb3-52eade41357d.png?auth_key=1877356951-5014778f26154be992d1aef3e2c10833-0-d642e79e368314c9041060d21fb36f20" alt="A little girl" class="w-full h-auto">
+        </div>
+
+      </div> </div>
+  </div>
+</div>
+
+        <!-- 1.3 Social Policy and Australian Responses -->
+        <div class="section-card bg-white rounded-2xl border border-neutral-200/50 overflow-hidden">
+  <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+    <div class="flex items-center gap-4">
+      <span class="sub-section-num text-sm font-medium text-neutral-400">03</span>
+      <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Social Policy and Australian Responses</h3>
+    </div>
+    <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+  </button>
+  
+  <div class="accordion-content px-6 md:px-8">
+    <div class="pb-6 border-t border-neutral-100 pt-5">
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        
+        <div class="space-y-4">
+          <p class="text-sm font-light leading-relaxed text-neutral-600">Australia's policy response to housing stress includes a variety of national and state policies to address housing affordability and vulnerable families. These include the National Housing and Homelessness Agreement (NHHA) that allocates funds to the states and territories to provide housing services and the Commonwealth Rent Assistance (CRA) program that supports low-income tenants in private housing (Australian Institute of Health and Welfare, 2023). In South Australia, Housing SA provides public housing and assistance to families facing housing insecurity.</p>
+          <p class="text-sm font-light leading-relaxed text-neutral-600">Recent statistics show the need to address this issue, with many low-income households facing housing stress, especially those in rental housing who pay more than 30% of their income on housing (Australian Institute of Health and Welfare, 2023). This shows the prevalence and persistence of housing insecurity in Australia.</p>
+          <p class="text-sm font-light leading-relaxed text-neutral-600">These government responses affect early childhood practices by increasing the demand for inclusive and supportive early childhood environments. Teachers need to consider family situations and operate within policy settings that emphasise equity and access. Early childhood services work with housing and social support providers to ensure children with housing stress can access consistent and quality care, and support for their learning and development.</p>
+        </div>
+
+        <div class="rounded-xl overflow-hidden">
+          <img src="https://z-cdn-media.chatglm.cn/files/cd624eec-e0b0-4494-a9ef-2a7e70ad365d.png?auth_key=1877359161-c69b4075de6340c0adedb05fe86eba28-0-dddd2031d18dcdb7775981c1136ce35f" alt="A little girl" class="w-full h-auto">
+        </div>
+
+      </div> </div>
+  </div>
+</div>
+
+        <!-- 1.4 Strategies for Practice -->
+        <div class="section-card bg-white rounded-2xl border border-neutral-200/50 overflow-hidden">
+  <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+    <div class="flex items-center gap-4">
+      <span class="sub-section-num text-sm font-medium text-neutral-400">04</span>
+      <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Strategies for Practice  </h3>
+    </div>
+    <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+  </button>
+  
+  <div class="accordion-content px-6 md:px-8">
+    <div class="pb-6 border-t border-neutral-100 pt-5">
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        
+        <div class="space-y-4">
+          <p class="text-sm font-light leading-relaxed text-neutral-600">Early childhood teachers can support children and families living with housing stress by following responsive practices that are backed by research. First, fostering positive and trusting relationships with families helps teachers recognise families' needs and support them, as per the EYLF V2.0 point about secure relationships (ACECQA, 2022).</p>
+          <p class="text-sm font-light leading-relaxed text-neutral-600">Second, predictable routines and a secure physical environment foster children’s feeling of security and belonging, particularly in times of uncertainty. Third, trauma-informed approaches, such as responding to difficult experiences with stability and consistency, support children's regulation of stress and emotions (Vericat Rocha & Ruitenberg, 2019).</p>
+          <p class="text-sm font-light leading-relaxed text-neutral-600">Fourth, teachers can support families by linking them to community services, such as housing and financial aid, which boosts resilience. Fifth, offering inclusive, play-based learning opportunities supports social, emotional and engagement.</p>
+          <p class="text-sm font-light leading-relaxed text-neutral-600">Educators can put this into practice by observing children, planning teaching strategies and partnerships with families and professionals to support children's wellbeing and development.</p>
+        </div>
+
+        <div class="rounded-xl overflow-hidden">
+          <img src="https://z-cdn-media.chatglm.cn/files/ca04390d-01d1-4137-9276-0e13fabdb843.png?auth_key=1877359541-e4da3830b6fd48d68b8e0c013910c18e-0-1b678f82827094d93454a0269d006aae" alt="A little girl" class="w-full h-auto">
+        </div>
+
+      </div> </div>
+  </div>
+</div>
+
+
+        <!-- 1.5 Community and Professional Partnerships -->
+        <div class="section-card bg-white rounded-2xl border border-neutral-200/50 overflow-hidden">
+  <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+    <div class="flex items-center gap-4">
+      <span class="sub-section-num text-sm font-medium text-neutral-400">05</span>
+      <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Community and Professional Partnerships</h3>
+    </div>
+    <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+  </button>
+  
+  <div class="accordion-content px-6 md:px-8">
+    <div class="pb-6 border-t border-neutral-100 pt-5">
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        
+        <div class="space-y-4">
+          <p class="text-sm font-light leading-relaxed text-neutral-600">Community and professional partnerships are critical to support children and families experiencing housing stress. Notable organisations include Housing SA, which offers public housing and support services, and Centrelink, which provides financial support to low-income families (Australian Institute of Health and Welfare, 2023). Not-for-profit organisations like Anglicare Australia offer emergency accommodation, housing and counselling services, while The Salvation Army supports families with crisis accommodation and community services (Rental Affordability Snapshot 2022, n.d.).</p>
+          <p class="text-sm font-light leading-relaxed text-neutral-600">Professionals like social workers and family support workers are also key to identifying family needs and linking families to services. This includes partnership with early childhood services to support children and families.</p>
+          <p class="text-sm font-light leading-relaxed text-neutral-600">Collaboration includes teachers making referrals, sharing information (with permission) and joint planning for support. This collaboration approach helps build families' capacity and ensures children affected by housing stress have ongoing support for their wellbeing, development, and early learning participation (ACECQA, 2022)</p>
+       
+        </div>
+
+        <div class="rounded-xl overflow-hidden">
+          <img src="https://z-cdn-media.chatglm.cn/files/ee1b0d31-72c2-44c2-ba3f-9d7a37cbe511.png?auth_key=1877360275-72f5867374ae4095abc0df828bed9a6a-0-1a12b26770c83dc3613893516392a20f" alt="A little girl" class="w-full h-auto">
+        </div>
+
+      </div> </div>
+  </div>
+</div>
+
+
+        <!-- 1.6 Resources for Educators and Children -->
+        <div class="section-card bg-white rounded-2xl border border-neutral-200/50 overflow-hidden">
+  <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+    <div class="flex items-center gap-4">
+      <span class="sub-section-num text-sm font-medium text-neutral-400">06</span>
+      <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Resources for Educators and Children</h3>
+    </div>
+    <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+  </button>
+  
+  <div class="accordion-content px-6 md:px-8">
+    <div class="pb-6 border-t border-neutral-100 pt-5">
+      
+      <div class="grid md:grid-cols-2 gap-8">
+
+  <!-- LEFT SIDE (TEXT) -->
+  <div class="space-y-4">
+    <p class="text-sm font-light leading-relaxed text-neutral-600">
+      Educator resources include the Raising Children Network, which offers practical advice for stressed families; AIHW's Housing Stress pages, which display Australian statistics on the scale of the problem; Anglicare Australia's Rental Affordability Snapshot, which shows the continuing rental stress in low-income households; and ACECQA resources on wellbeing, inclusion and partnerships with families. These support educators to understand and respond to housing stress and support children and families inclusively.
+    </p>
+
+    <p class="text-sm font-light leading-relaxed text-neutral-600">
+      Reading books that can spark conversation include A Chair for My Mother, Those Shoes, Last Stop on Market Street and Maddi's Fridge. These stories address adversity, giving, appreciation and community support educators can draw on for preschool discussions about fairness, needs and belonging.
+    </p>
+
+    <p class="text-sm font-light leading-relaxed text-neutral-600">
+      For media, teachers can use Sesame Street in Communities: Homelessness, Lily-centred homelessness videos, Play School, and ABC Kids listen resources about belonging. These can support group discussions, role play, and emotional language, and help young children build empathy, resilience and an understanding that everyone should be cared for, safe and included in their community.
+    </p>
+  </div>
+
+
+  <!-- RIGHT SIDE (LINKS) -->
+  <div class="space-y-6">
+
+    <!-- Website -->
+    <div>
+      <h4 class="text-sm font-semibold text-neutral-800 mb-2">Website</h4>
+      <ul class="text-sm text-neutral-600 space-y-2">
+        <li><a href="https://www.anglicare.asn.au/wp-content/uploads/2025/04/Rental-Affordability-Snapshot-National-Report.pdf" target="_blank" class="underline">Rental Affordability Snapshot</a></li>
+        <li><a href="https://www.aihw.gov.au/getmedia/6af928d6-692e-4449-b915-cf2ca946982f/aihw-cws-69_australias_children_print-report.pdf" target="_blank" class="underline">AIHW Children Report</a></li>
+        <li><a href="https://www.acecqa.gov.au/sites/default/files/2020-12/AResourceForEarlyChildhoodEducatorsAboutChildrensWellbeing.pdf" target="_blank" class="underline">Children’s Wellbeing Resource</a></li>
+        <li><a href="https://www.acecqa.gov.au/sites/default/files/acecqa/files/QualityInformationSheets/QualityArea6/QualityArea6BuildingPartnershipsWithFamilies.pdf" target="_blank" class="underline">Building Partnerships</a></li>
+        <li><a href="https://raisingchildren.net.au/grown-ups/services-support" target="_blank" class="underline">Raising Children Network</a></li>
+      </ul>
+    </div>
+
+    <!-- Book -->
+    <div>
+      <h4 class="text-sm font-semibold text-neutral-800 mb-2">Book</h4>
+      <ul class="text-sm text-neutral-600 space-y-2">
+        <li><a href="https://www.harpercollins.com.au/9780063222496/a-chair-for-my-mother/" target="_blank" class="underline">A Chair for My Mother</a></li>
+        <li><a href="https://books.google.com.au/books/about/Those_Shoes.html?id=hh3xyQzreMAC&redir_esc=y" target="_blank" class="underline">Those Shoes</a></li>
+        <li><a href="https://www.penguinrandomhouse.com/books/310757/last-stop-on-market-street-by-matt-de-la-pena-illustrated-by-christian-robinson/" target="_blank" class="underline">Last Stop on Market Street</a></li>
+        <li><a href="https://newsouthbooks.com.au/books/maddis-fridge/" target="_blank" class="underline">Maddi's Fridge</a></li>
+      </ul>
+    </div>
+
+    <!-- Video -->
+    <div>
+      <h4 class="text-sm font-semibold text-neutral-800 mb-2">Video</h4>
+      <ul class="text-sm text-neutral-600 space-y-2">
+        <li><a href="https://www.youtube.com/watch?v=1QKxTDfGH-o&t=5s" target="_blank" class="underline">Sesame Street: Homelessness</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Axv1qGINuJA" target="_blank" class="underline">Lily Video</a></li>
+        <li><a href="https://iview.abc.net.au/video/CH1912H011S00" target="_blank" class="underline">Play School</a></li>
+        <li><a href="https://www.abc.net.au/kidslisten/programs/soundwalks/belonging/13987828" target="_blank" class="underline">ABC Kids Listen</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+        
+
+      </div> 
+    </div>
+  </div>
+</div>
+
+  <!-- Divider -->
+  <div class="max-w-7xl mx-auto px-6"><div class="border-t border-neutral-200/50"></div></div>
+
+  <!-- ==================== SECTION 2: SOCIAL CONTEXTS ==================== -->
+  <section id="social" class="py-20 md:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="mb-12">
+        <span class="inline-block text-xs font-semibold tracking-[0.1em] uppercase text-neutral-400 font-mono mb-3"></span>
+        <div class="flex items-start gap-5">
+          <div class="w-14 h-14 rounded-2xl section-icon-box flex items-center justify-center flex-shrink-0">
+            <span class="iconify text-neutral-50" data-icon="lucide:users" data-width="26" data-height="26"></span>
+          </div>
+          <div>
+            <h2 class="font-oswald text-[30px] md:text-[36px] font-medium tracking-[-0.025em] uppercase" style="color:#1e40af;">Social Contexts</h2>
+            <p class="mt-2 text-base md:text-lg font-light leading-relaxed text-neutral-500 max-w-2xl"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="space-y-3">
+        <!-- 2.1 -->
+        <div class="section-card bg-neutral-50 rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">01</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Understanding the Context</h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-200/50 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Geographical or social isolation involves a lack of social support, community services and connections because of distance or other social barriers. This is often the case for families living in rural and remote communities in Australia, as well as families in cities who may experience social isolation due to language, immigration or a lack of support (Australian Institute of Health and Welfare, 2023). This context is critical to early childhood education because children's learning and development is heavily impacted by their social interactions and connections.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">From a sociological viewpoint, Vygotsky's sociocultural theory underscores the role of social interactions in children's learning (Vygotsky, 1978). Social isolation can limit children's opportunities for interaction, collaboration and learning from others. Moreover, Bronfenbrenner's ecological systems theory underscores the role of limited community support in affecting a child's development within various settings.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">In Australia, social isolation is on the rise due to factors such as technology, migration and family changes, impacting a wide range of families, including migrants and rural communities, and is a critical issue for inclusive early childhood practice.</p>
+                </div>
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/9104b85d-1160-4265-910f-81b982e0fce5.png?auth_key=1877361220-84279d5407264e79967c669242b2d87f-0-a1262ac490c01b28c297b113b1f58e51" alt="Social Context" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2.2 -->
+        <div class="section-card bg-neutral-50 rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">02</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Impact on Children and Families  </h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-200/50 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Social or geographical isolation can have a profound impact on children's development, learning and wellbeing. Social isolation can lead to fewer opportunities for language, communication and play skills development (Vygotsky, 1978), which are important during early childhood. Isolated children may experience loneliness, low self-esteem, and difficulty forming relationships with other children and teachers. This may affect their feelings of inclusion and engagement in the learning environment, principles found in the Early Years Learning Framework (ACECQA, 2022).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Parents may also face barriers to accessing support networks, services and the community, which can increase their stress and limit their social connections (Australian Institute of Health and Welfare, 2023). This may impact on parents' capacity to support their children's learning and development.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">This situation underscores the need for early childhood services to prioritise inclusive, supportive social practices. Teachers may need to provide more opportunities to engage, foster communication skills and collaborate with families to ensure children are connected, supported, and engaged in their early years of learning.</p>
+                </div>
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/ca2147ea-4cdb-438d-bcfe-3a15a9f1244c.png?auth_key=1877361758-b09a278dbf9641b292035292f88cce4f-0-4ac9ba72f9e18c37bea8f83381090c28" alt="Social Context" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2.3 -->
+        <div class="section-card bg-neutral-50 rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">03</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Social Policy and Australian Responses   </h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-200/50 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Social and geographical isolation in Australia is tackled through policies encouraging inclusion and service provision. The Early Years Learning Framework (EYLF V2.0) emphasises the importance of inclusion, belonging and equal learning opportunities for all children, no matter where they live (ACECQA, 2022). National projects like the National Broadband Network (NBN) and rural outreach programs seek to enhance access to services and connectivity for families in rural and regional communities.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">According to the Australian Institute of Health and Welfare (Australian Institute of Health and Welfare, 2023), rural and remote communities are more likely to report social isolation and lack access to education, health and other support services. This shows that the problem is persistent in Australia.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">These responses impact early childhood practice through the promotion of inclusive and flexible approaches. Teachers can incorporate technology, provide social engagement and collaborate with parents. These approaches support children experiencing isolation to feel included, engaged and valued in early childhood settings.</p>
+                </div>
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/ffb933cf-dc2f-4e37-be52-3e3d2e9f1d8d.png?auth_key=1877361982-dc1306e359b844a582b2fdab6a204049-0-b8f22d8fc36f0f77085e00c0bf2f107d" alt="Social Context" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2.4 -->
+        <div class="section-card bg-neutral-50 rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">04</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Strategies for Practice </h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-200/50 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Early childhood educators can help children experiencing social or geographical isolation by being inclusive. First, educators can plan for opportunities for social engagement, like small group play and group activities, to develop social skills. Second, prioritising strong and trusting relationships with families fosters participation and prevents isolation (ACECQA, 2022).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Third, teachers can use technology, like online storytelling, to link children with their community and learning opportunities. Fourth, teachers can use inclusive and culturally responsive approaches to support children to feel included and represented, particularly children from diverse and migrant backgrounds. Finally, offering routine and emotional support makes children feel safe and comfortable in social settings.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">To implement these practices, teachers can design interactive learning experiences, foster peer interactions and maintain family communication. By fostering a connected and supportive environment, teachers build resilience, social skills and a sense of belonging in early learning environments.</p>
+                </div>
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/90592d34-301e-4ced-a1c3-252dfa862127.png?auth_key=1877362318-7a6797ccbc7d46a68faf3d416416aa5b-0-8562a7b275cb11b0dff9cd727e459b55" alt="Social Context" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2.5 -->
+        <div class="section-card bg-neutral-50 rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">05</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Community and Professional Partnerships  </h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-200/50 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Community and professional partnerships are crucial to providing support to children and families who are socially or geographically isolated. Organisations such as the Royal Flying Doctor Service (RFDS), which delivers health and outreach services to remote communities, and Headspace, which supports young people's mental health and wellbeing, are important community partners. Community centres and councils provide family programs and activities to address isolation, and Migrant Resource Centres assist families who are new arrivals. And family support workers and social workers are important in connecting families with services and community supports (Australian Institute of Health and Welfare, 2023).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">These service providers work with early childhood services. Teachers can provide families with service referrals, information sharing and joint planning. Collaborative programs, events and outreach activities can also foster family connections with services.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">These collaborations can help overcome isolation by providing families with support and resources, and making children feel included, supported, and able to participate in early learning settings.</p>
+                </div>
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/e4501056-71bf-448e-9e78-1672520cd624.png?auth_key=1877362443-9a292560572b49bdb3814e201b80b1cf-0-f9beb2d310cb30add8c30f08a825b9f0" alt="Social Context" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2.6 -->
+        <div class="section-card bg-neutral-50 rounded-2xl border border-neutral-200/50 overflow-hidden">
+
+  <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+    <div class="flex items-center gap-4">
+      <span class="sub-section-num text-sm font-medium text-neutral-400">06</span>
+      <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">
+        Resources for Educators and Children
+      </h3>
+    </div>
+    <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down"></span>
+  </button>
+
+  <div class="accordion-content px-6 md:px-8">
+    <div class="pb-6 border-t border-neutral-200/50 pt-5">
+
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <!-- LEFT SIDE (LINKS) -->
+        <div class="space-y-6">
+
+          <!-- Website -->
+          <div>
+            <h4 class="text-sm font-semibold text-neutral-800 mb-2">Website</h4>
+            <ul class="text-sm text-neutral-600 space-y-2">
+              <li><a href="https://raisingchildren.net.au/grown-ups/services-support" target="_blank" class="underline">Raising Children Network</a></li>
+              <li><a href="https://raisingchildren.net.au/grown-ups/services-support" target="_blank" class="underline">Support Services</a></li>
+              <li><a href="https://www.acecqa.gov.au/sites/default/files/2020-12/AResourceForEarlyChildhoodEducatorsAboutChildrensWellbeing.pdf" target="_blank" class="underline">Children’s Wellbeing Resource</a></li>
+              <li><a href="https://www.unesco.org/en/early-childhood-education/watch-play-learn-sesame-workshops-universal-early-learning-initiative" target="_blank" class="underline">UNESCO Early Learning Initiative</a></li>
+            </ul>
+          </div>
+
+          <!-- Book -->
+          <div>
+            <h4 class="text-sm font-semibold text-neutral-800 mb-2">Book</h4>
+            <ul class="text-sm text-neutral-600 space-y-2">
+              <li><a href="https://www.hachettebookgroup.com/titles/patrice-karst/the-invisible-string/9780316486231/" target="_blank" class="underline">The Invisible String</a></li>
+              <li><a href="https://www.penguinrandomhouse.com/series/WEL/all-are-welcome/" target="_blank" class="underline">All Are Welcome</a></li>
+              <li><a href="https://www.booktopia.com.au/whoever-you-are-mem-fox/book/9781328895813.html" target="_blank" class="underline">Whoever You Are</a></li>
+              <li><a href="https://readwj.wordpress.com/wp-content/uploads/2022/09/only-one-you-linda-kranz.pdf" target="_blank" class="underline">Only One You</a></li>
+            </ul>
+          </div>
+
+          <!-- Video -->
+          <div>
+            <h4 class="text-sm font-semibold text-neutral-800 mb-2">Video</h4>
+            <ul class="text-sm text-neutral-600 space-y-2">
+              <li><a href="https://iview.abc.net.au/video/CH1702Q051S00" target="_blank" class="underline">Bluey: Camping</a></li>
+              <li><a href="https://www.misterrogers.org/watch/" target="_blank" class="underline">Mister Rogers’ Neighborhood</a></li>
+              <li><a href="https://www.youtube.com/watch?v=UVTHLR-77W0" target="_blank" class="underline">Tinga Tinga Tales</a></li>
+              <li><a href="https://www.youtube.com/watch?v=0HkAn9gzgN8" target="_blank" class="underline">Arthur Video</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+
+        <!-- RIGHT SIDE (TEXT) -->
+        <div class="space-y-4">
+
+          <p class="text-sm font-light leading-relaxed text-neutral-600">
+            A variety of evidence-informed resources are available to educate educators about social isolation and how to build social connection. The Raising Children Network offers tips to support children's social skills and Beyond Blue has resources about loneliness and wellbeing. The AIHW has data on social isolation in Australia and ACECQA has resources on inclusive practices and relationships (Australian Institute of Health and Welfare, 2023). These help educators create responsive and connected environments.
+          </p>
+
+          <p class="text-sm font-light leading-relaxed text-neutral-600">
+            Books like Patrice Karst's The Invisible String teach children they are never alone, even when physically separated, and reduce loneliness. Other books such as All Are Welcome, Whoever You Are and Only One You encourage acceptance, diversity and inclusion. Teachers can use these with group discussions to promote empathy and acceptance.
+          </p>
+
+          <p class="text-sm font-light leading-relaxed text-neutral-600">
+            Teaching resources like Bluey: Series 1 Camping help develop social and emotional skills in children through friendship, communication and separation. Other resources such as Mister Rogers’ Neighborhood, Tinga Tinga Tales, and Arthur: So Funny I Forgot to Laugh demonstrate kindness, collaboration, empathy and healthy relationship skills. This content can be incorporated through storytelling, role-play and group conversations for building resilience, confidence, and positive peer relationships. They also support a sense of community and awareness of others' emotions.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <!-- ==================== SECTION 3: CULTURAL AND DIVERSITY CONTEXTS ==================== -->
+  <section id="cultural" class="py-20 md:py-24 bg-neutral-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="mb-12">
+        <span class="inline-block text-xs font-semibold tracking-[0.1em] uppercase text-neutral-400 font-mono mb-3"></span>
+        <div class="flex items-start gap-5">
+          <div class="w-14 h-14 rounded-2xl section-icon-box flex items-center justify-center flex-shrink-0">
+            <span class="iconify text-neutral-50" data-icon="lucide:globe" data-width="26" data-height="26"></span>
+          </div>
+          <div>
+            <h2 class="font-oswald text-[30px] md:text-[36px] font-medium tracking-[-0.025em] uppercase" style="color:#5b21b6;">Cultural and Diversity Contexts</h2>
+            <p class="mt-2 text-base md:text-lg font-light leading-relaxed text-neutral-500 max-w-2xl"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="space-y-3">
+        <!-- 3.1 -->
+        <div class="section-card bg-white rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">01</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Understanding the Context</h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-100 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">First Nations families are Aboriginal and Torres Strait Islander peoples, the world's oldest living cultures. They have rich languages, cultures, knowledge systems, kinship and strong connection to Country (the land, sea and sky), community and culture. In early childhood education, recognising and valuing First Nations worldviews is critical to providing culturally safe, inclusive and respectful learning environments (ACECQA, 2022).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">From a sociological standpoint, Bronfenbrenner's ecological systems theory recognises the influence of family, community, culture and social systems on children's learning. For First Nations children, identity and wellbeing are closely linked with family, culture and Country. Sociocultural theory also acknowledges learning in cultural practices, storytelling and community (Vygotsky, 1978).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Today's research recognises the legacies of colonisation, dispossession and trauma that continue to affect many First Nations families. Yet, it is important to understand the diversity, resilience and strength in First Nations communities. Today, in contemporary Australian society, Indigenous voices, self-determination and the importance of embedding Indigenous perspectives in early childhood practice are being recognised.</p>
+                  
+                </div>
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/b846277e-59eb-4f28-8d1f-ba40b1cd6e25.png?auth_key=1877362766-2d25caa76197493c9f09de8741e28401-0-e56f86330c331e87684e0477446dff09" alt="Cultural Diversity" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3.2 -->
+        <div class="section-card bg-white rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">02</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Impact on Children and Families  </h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-100 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">First Nations children's development, health, and learning are enhanced by strong cultural connections, including to family, community, language and Country. Having their culture valued and celebrated provides confidence, a sense of belonging and positive identity. Storytelling, art, music, and community connections also facilitate language building, emotional regulation and social learning (ACECQA, 2022)</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">But some First Nations families may still be experiencing the effects of colonisation, racism, and disadvantage, which can impact children's engagement with education, health and learning environments. These factors can affect factors such as attendance, engagement, and service participation (National Indigenous Australians Agency, 2024).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">For early childhood services, this is a reminder to create culturally safe and inclusive spaces. Teachers need to establish reciprocal partnerships with families, value the strengths of First Nations cultures, and integrate Aboriginal and Torres Strait Islander perspectives into their practice. Services must also partner with the local community to ensure children are included, welcome and encouraged in their learning.</p>
+                  
+                </div>
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/a6bd96b4-5965-4a09-85f5-536704c819f6.png?auth_key=1877363041-c478d5b6f5e545a6a0641411b98dec42-0-53df4c92a795915d15cf7838b7ac7a59" alt="Cultural Diversity" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 3.3 -->
+        <div class="section-card bg-white rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">03</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Social Policy and Australian Responses </h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-100 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Australia has a range of policies and programs to support First Nations children and families. Closing the Gap is a national plan to address inequality in education, health, housing and employment through partnerships with Aboriginal and Torres Strait Islander people (National Indigenous Australians Agency, 2024). The Early Years Learning Framework (EYLF V2.0) also mandate the need to respect and include Aboriginal and Torres Strait Islander perspectives in early childhood education (ACECQA, 2022). Aboriginal education plans and other community-driven programs in South Australia promote culturally responsive services.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">For example, recent statistics indicate that First Nations children continue to lag other children in areas such as readiness for school, health, and access to services, showing a continued need for policies to address this (Australian Bureau of Statistics, 2024).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">These policies impact early childhood practice by promoting culturally safe environments, support for families and genuine representation of First Nations people's knowledge, cultures and histories. Educators must collaborate respectfully with the local community, empowering First Nations children to feel included, valued and supported to learn.</p>
+                  
+                </div>
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/08e066fa-0d24-4322-a0ba-085558ccf93b.png?auth_key=1877363705-7021e6b017514e3a84c17fe30a10f31a-0-1e9b62c8af7cf94be53f5d6c8cb2739c" alt="Cultural Diversity" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 3.4 -->
+        <div class="section-card bg-white rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">04</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Strategies for Practice  </h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-100 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Early childhood teachers can promote culturally responsive and strengths-based approaches to support First Nations children and families. First, respectful relationships with families and Elders enables educators to understand children's identities, values and community expectations. Second, incorporating Aboriginal and Torres Strait Islander values through stories, art, music, language and Country promotes pride (ACECQA, 2022).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Third, providing a culturally safe space by including diverse resources, recognising Country and addressing bias makes children feel valued. Fourth, taking a strength-focused approach means emphasising children's ability, resilience and strengths rather than deficits. Fifth, engaging communities in learning activities helps build partnerships and knowledge exchange.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">For example, teachers can engage community members, incorporate Indigenous perspectives into the curriculum and consider children's cultural backgrounds when planning teaching and learning. Reflection and professional learning also support teachers to build cultural competence. These approaches promote children's wellbeing, identity, engagement and learning in early childhood education.</p>
+                  
+                </div>
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/e9ab420d-fb2a-4f0e-a430-6eb404f9e415.png?auth_key=1877363519-b184ce81a6474bd0a837008813bf0b42-0-96b0da4a604f5052a1e57b310a36f214" alt="Cultural Diversity" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3.5 -->
+        <div class="section-card bg-white rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">05</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Community and Professional Partnerships  </h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-100 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Partnerships with the community and professionals are critical for supporting First Nations children and their families. These include National Aboriginal Community Controlled Health Organisations, which have culturally safe family, health and community services. Aboriginal Education Workers support families, children and their learning at school. Aboriginal Health Services support families' physical and mental health, and social workers and family support workers connect families to housing, counselling and community support. Elders and community leaders also contribute to sharing cultural knowledge, language and experiences (NACCHO, 2025).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">These partners can work together with early childhood services to co-plan programs, engage in cultural learning opportunities, and prepare teachers to practice respectfully. Teachers can share Elders' stories, engage with NACCHOs and support staff to address family needs.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">These partnerships foster trust, cultural safety and connection between home, community and early childhood services. They help First Nations children feel valued, included and supported to learn and develop.</p>
+                  
+                </div>
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/2cdb2c00-7c95-4f21-ba34-48af6fcf50cb.png?auth_key=1877363835-0f5007b649ad4f1e81700b43250e8d69-0-f0237c0ab32f04ce58cbda912c8d8049" alt="Cultural Diversity" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 3.6 -->
+        <div class="section-card bg-neutral-50 rounded-2xl border border-neutral-200/50 overflow-hidden">
+
+  <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+    <div class="flex items-center gap-4">
+      <span class="sub-section-num text-sm font-medium text-neutral-400">06</span>
+      <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">
+        Resources for Educators and Children
+      </h3>
+    </div>
+    <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down"></span>
+  </button>
+
+  <div class="accordion-content px-6 md:px-8">
+    <div class="pb-6 border-t border-neutral-200/50 pt-5">
+
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <!-- LEFT SIDE (LINKS) -->
+        <div class="space-y-6">
+
+          <!-- Website -->
+          <div>
+            <h4 class="text-sm font-semibold text-neutral-800 mb-2">Website</h4>
+            <ul class="text-sm text-neutral-600 space-y-2">
+              <li><a href="https://raisingchildren.net.au/grown-ups/services-support" target="_blank" class="underline">Raising Children Network</a></li>
+              <li><a href="https://raisingchildren.net.au/grown-ups/services-support" target="_blank" class="underline">Support Services</a></li>
+              <li><a href="https://www.acecqa.gov.au/sites/default/files/2020-12/AResourceForEarlyChildhoodEducatorsAboutChildrensWellbeing.pdf" target="_blank" class="underline">Children’s Wellbeing Resource</a></li>
+              <li><a href="https://www.unesco.org/en/early-childhood-education/watch-play-learn-sesame-workshops-universal-early-learning-initiative" target="_blank" class="underline">UNESCO Early Learning Initiative</a></li>
+            </ul>
+          </div>
+
+          <!-- Book -->
+          <div>
+            <h4 class="text-sm font-semibold text-neutral-800 mb-2">Book</h4>
+            <ul class="text-sm text-neutral-600 space-y-2">
+              <li><a href="https://www.hachettebookgroup.com/titles/patrice-karst/the-invisible-string/9780316486231/" target="_blank" class="underline">The Invisible String</a></li>
+              <li><a href="https://www.penguinrandomhouse.com/series/WEL/all-are-welcome/" target="_blank" class="underline">All Are Welcome</a></li>
+              <li><a href="https://www.booktopia.com.au/whoever-you-are-mem-fox/book/9781328895813.html" target="_blank" class="underline">Whoever You Are</a></li>
+              <li><a href="https://readwj.wordpress.com/wp-content/uploads/2022/09/only-one-you-linda-kranz.pdf" target="_blank" class="underline">Only One You</a></li>
+            </ul>
+          </div>
+
+          <!-- Video -->
+          <div>
+            <h4 class="text-sm font-semibold text-neutral-800 mb-2">Video</h4>
+            <ul class="text-sm text-neutral-600 space-y-2">
+              <li><a href="https://iview.abc.net.au/video/CH1702Q051S00" target="_blank" class="underline">Bluey: Camping</a></li>
+              <li><a href="https://www.misterrogers.org/watch/" target="_blank" class="underline">Mister Rogers’ Neighborhood</a></li>
+              <li><a href="https://www.youtube.com/watch?v=UVTHLR-77W0" target="_blank" class="underline">Tinga Tinga Tales</a></li>
+              <li><a href="https://www.youtube.com/watch?v=0HkAn9gzgN8" target="_blank" class="underline">Arthur Video</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+
+        <!-- RIGHT SIDE (TEXT) -->
+        <div class="space-y-4">
+
+          <p class="text-sm font-light leading-relaxed text-neutral-600">
+            A variety of evidence-informed resources are available to educate educators about social isolation and how to build social connection. The Raising Children Network offers tips to support children's social skills and Beyond Blue has resources about loneliness and wellbeing. The AIHW has data on social isolation in Australia and ACECQA has resources on inclusive practices and relationships (Australian Institute of Health and Welfare, 2023). These help educators create responsive and connected environments.
+          </p>
+
+          <p class="text-sm font-light leading-relaxed text-neutral-600">
+            Books like Patrice Karst's The Invisible String teach children they are never alone, even when physically separated, and reduce loneliness. Other books such as All Are Welcome, Whoever You Are and Only One You encourage acceptance, diversity and inclusion. Teachers can use these with group discussions to promote empathy and acceptance.
+          </p>
+
+          <p class="text-sm font-light leading-relaxed text-neutral-600">
+            Teaching resources like Bluey: Series 1 Camping help develop social and emotional skills in children through friendship, communication and separation. Other resources such as Mister Rogers’ Neighborhood, Tinga Tinga Tales, and Arthur: So Funny I Forgot to Laugh demonstrate kindness, collaboration, empathy and healthy relationship skills. This content can be incorporated through storytelling, role-play and group conversations for building resilience, confidence, and positive peer relationships. They also support a sense of community and awareness of others' emotions.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <!-- Divider -->
+  <div class="max-w-7xl mx-auto px-6"><div class="border-t border-neutral-200/50"></div></div>
+
+  <!-- ==================== SECTION 4: HEALTH AND WELLBEING CONTEXTS ==================== -->
+  <section id="health" class="py-20 md:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="mb-12">
+        <span class="inline-block text-xs font-semibold tracking-[0.1em] uppercase text-neutral-400 font-mono mb-3"></span>
+        <div class="flex items-start gap-5">
+          <div class="w-14 h-14 rounded-2xl section-icon-box flex items-center justify-center flex-shrink-0">
+            <span class="iconify text-neutral-50" data-icon="lucide:heart-pulse" data-width="26" data-height="26"></span>
+          </div>
+          <div>
+            <h2 class="font-oswald text-[30px] md:text-[36px] font-medium tracking-[-0.025em] uppercase" style="color:#065f46;">Health and Wellbeing Contexts</h2>
+            <p class="mt-2 text-base md:text-lg font-light leading-relaxed text-neutral-500 max-w-2xl"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="space-y-3">
+        <!-- 4.1 -->
+        <div class="section-card bg-neutral-50 rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">01</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Understanding the Context</h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-200/50 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Parental mental illness describes mental health disorders such as depression, anxiety, bipolar disorder, trauma-related disorders, or other mental health issues parents or caregivers may face. They may impact on parenting, family dynamics and home environments. This is particularly significant in early childhood education as children's early development, well-being and attachment are heavily shaped by parenting (Australian Institute of Health and Welfare, 2023).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Sociologically, Bronfenbrenner's ecological systems theory shows children develop in multiple environments, such as family, community and social systems. When parental mental illness impacts the family environment, children’s emotional development and learning may be impacted. Attachment theory also emphasises the importance of sensitive parenting for healthy emotional development (Bowlby, 1988).</p>
+                <p class="text-sm font-light leading-relaxed text-neutral-600">Parental mental illness impacts on families across Australia today, regardless of culture, social class or socioeconomic background. Greater awareness, acceptance and support for people living with mental illness has led to greater willingness to talk about it. But financial, social and service access barriers continue to exist, so this is a priority for inclusive early childhood practice </p>
+                </div>
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/3515585f-50a4-4269-bd4e-ac76f350efa1.png?auth_key=1877364151-28cfc87cb2284b87af5ee3e22663fdac-0-d6cd46d2f4a5e7c43c11691bc53501b3" alt="Health and Wellbeing" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4.2 -->
+        <div class="section-card bg-neutral-50 rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">02</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Impact on Children and Families  </h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-200/50 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">When parents have a mental illness, this can impact children's development, learning and health. Parental depression, anxiety or other forms of mental illness can place children at risk of exposure to stress, disrupted parenting and/or reduced parental responsiveness. This may affect attachment, self-esteem, behaviour and emotional regulation in the early years (Bowlby, 1988). Children may experience anxiety, withdrawal or a lack of attention and participation in learning activities.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">It can also impact on family dynamics, as mental illness can create additional stress, financial burden and tension. Families may benefit from greater support to maintain family routines and respond to children’s needs (Australian Institute of Health and Welfare, 2023).</p>
+                <p class="text-sm font-light leading-relaxed text-neutral-600">For early childhood services, this suggests the need for safe, supportive and consistent environments. Teachers and educators may need to offer more emotional support, track children's wellbeing and develop strong relationships with families. Services may need to make referrals to mental health and other community services and ensure children are engaged, safe, and supported in their learning and development.</p>
+                </div>
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/691a6441-4c4b-4a85-a6a1-6f71448bef8f.png?auth_key=1877364402-a0b46002631043b58f5aabe36a0521d9-0-daaffdde241baa09bacb11ad9bcd2da4" alt="Health and Wellbeing" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4.3 -->
+        <div class="section-card bg-neutral-50 rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">03</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Social Policy and Australian Responses   </h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-200/50 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">A range of policies and programs have been implemented to support Australian families with parental mental illness. The National Mental Health and Suicide Prevention Agreement seek to address access to mental health services, early intervention and family-based services. Initiatives like Perinatal Mental Health Services, Beyond Blue and PANDA (Perinatal Anxiety & Depression Australia) offer support for parents who are experiencing anxiety, depression and other emotional disturbances during pregnancy and early parenting (Australian Institute of Health and Welfare, 2023). South Australia's community and Child and Family Health Services also provide family support.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">The latest statistics show the number of Australian adults experiencing mental health problems is high, showing the pervasive nature of this concern for families and children (Australian Institute of Health and Welfare, 2023). Early intervention is therefore essential.</p>
+                <p class="text-sm font-light leading-relaxed text-neutral-600">These policy responses impact on early childhood practice by urging educators to identify wellbeing needs, promote safe and supportive environments and work with families and other professionals. There is an expectation that services are trauma-informed and family-focused, with a commitment to children's emotional safety, resilience and sustained learning.</p>
+                </div>
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/3d98eabb-b9cc-4c5c-841f-8d99ecb017a5.png?auth_key=1877364681-6cbed5babbd44589a9ff641df950c8ac-0-62a3561add222d0f3dc8d8dd21cd6ec5" alt="Health and Wellbeing" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4.4 -->
+        <div class="section-card bg-neutral-50 rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">04</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Strategies for Practice </h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-200/50 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Early childhood teachers can respond to children and families with parental mental illness using effective and responsive strategies. First, a safe and structured learning environment with routines and consistency makes children feel safe. Second, teachers and educators can foster positive relationships with families, promoting communication and understanding of their needs (ACECQA, 2022).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Third, teachers can support children's social and emotional development through play, storytelling and emotional language exercises that teach children to identify and regulate emotions. Fourth, trauma-informed approaches such as responding calmly and offering sensitive behaviour management strategies support children who are stressed. Fifth, connecting families to community and mental health services supports families and family wellbeing.</p>
+                <p class="text-sm font-light leading-relaxed text-neutral-600">Teachers can monitor children's emotional responses, offer responsive interactions and support, and create stress-reducing learning opportunities. Daily engagement with families and support from professionals also ensures continuity of care between home and the early learning environment. This promotes resilience, well-being and engagement with children's learning and development.</p>
+                </div>
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/0472f9b6-37d9-4d46-aa29-082220d7cdc1.png?auth_key=1877364841-4b219de7f29c403a9dcf9cca5d2c3c6a-0-69735369538171fd1c7af61ffe9c0ee5" alt="Health and Wellbeing" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4.5 -->
+        <div class="section-card bg-neutral-50 rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">05</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Community and Professional Partnerships  </h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-200/50 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Collaborative partnerships with the community and professionals are key in supporting families with parental mental illness. There are organisations like Beyond Blue (which offers mental health information and support) and PANDA (which supports mothers with perinatal anxiety and depression). Child and Family Health Services focus on parenting, child development and family health, while community mental health services provide counselling and treatment for parents. Other professionals, including psychologists, social workers and general practitioners (GPs) also play a key role in assessment, treatment and referral (Australian Institute of Health and Welfare, 2023).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">These services can partner with early childhood services to support children and families. Teachers can make referrals, share concerns tactfully, and engage in collaborative planning with family consent. Collaborative efforts ensure children are supported with their emotions at home and in their early learning settings.</p>
+                <p class="text-sm font-light leading-relaxed text-neutral-600">These collaborations enhance family wellbeing, decrease stigma, and enhance support. They also help educators confidently meet children's needs, fostering feelings of security, resilience and engagement in early learning.</p>
+                </div>
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/794bd156-d529-4dc0-809b-ec29486dee1b.png?auth_key=1877364975-8ce8860722714ed1a986f2676ed26d11-0-bdb89e9d29bd8d5ad220c851b5eaef9c" alt="Health and Wellbeing" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4.6 -->
+        <div class="section-card bg-neutral-50 rounded-2xl border border-neutral-200/50 overflow-hidden">
+
+  <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+    <div class="flex items-center gap-4">
+      <span class="sub-section-num text-sm font-medium text-neutral-400">06</span>
+      <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">
+        Resources for Educators and Children
+      </h3>
+    </div>
+    <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down"></span>
+  </button>
+
+  <div class="accordion-content px-6 md:px-8">
+    <div class="pb-6 border-t border-neutral-200/50 pt-5">
+
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <!-- LEFT SIDE (LINKS) -->
+        <div class="space-y-6">
+
+          <!-- Website -->
+          <div>
+            <h4 class="text-sm font-semibold text-neutral-800 mb-2">Website</h4>
+            <ul class="text-sm text-neutral-600 space-y-2">
+              <li><a href="https://raisingchildren.net.au/grown-ups/services-support" target="_blank" class="underline">https://raisingchildren.net.au/grown-ups/services-support</a></li>
+              <li><a href="https://www.aihw.gov.au " target="_blank" class="underline">https://www.aihw.gov.au </a></li>
+              <li><a href="https://raisingchildren.net.au/grown-ups/services-support." target="_blank" class="underline">https://raisingchildren.net.au/grown-ups/services-support.</a></li>
+              <li><a href="https://www.beyondblue.org.au/" target="_blank" class="underline">https://www.beyondblue.org.au/</a></li>
+            </ul>
+          </div>
+
+          <!-- Book -->
+          <div>
+            <h4 class="text-sm font-semibold text-neutral-800 mb-2">Book</h4>
+            <ul class="text-sm text-neutral-600 space-y-2">
+              <li><a href="https://www.qbd.com.au/the-colour-monster/anna-llenas/9781783704231/" target="_blank" class="underline">https://www.qbd.com.au/the-colour-monster/anna-llenas/9781783704231/</a></li>
+              <li><a href="https://www.youtube.com/watch?v=hIPMZGPF64c" target="_blank" class="underline">https://www.youtube.com/watch?v=hIPMZGPF64c</a></li>
+              <li><a href="https://www.resiliencekit.com.au/product/when-im-feeling-sad/" target="_blank" class="underline">https://www.resiliencekit.com.au/product/when-im-feeling-sad/</a></li>
+              <li><a href="https://www.qbd.com.au/the-invisible-string/patrice-karst-joanne-lew-vriethoff/9780316486231/" target="_blank" class="underline">https://www.qbd.com.au/the-invisible-string/patrice-karst-joanne-lew-vriethoff/9780316486231/</a></li>
+            </ul>
+          </div>
+
+          <!-- Video -->
+          <div>
+            <h4 class="text-sm font-semibold text-neutral-800 mb-2">Video</h4>
+            <ul class="text-sm text-neutral-600 space-y-2">
+              <li><a href="https://www.youtube.com/watch?v=OrbN-nSTe-E" target="_blank" class="underline">https://www.youtube.com/watch?v=OrbN-nSTe-E</a></li>
+              <li><a href="https://www.youtube.com/watch?v=_mZbzDOpylA&list=RD_mZbzDOpylA&start_radio=1" target="_blank" class="underline">https://www.youtube.com/watch?v=_mZbzDOpylA&list=RD_mZbzDOpylA&start_radio=1</a></li>
+              <li><a href="https://iview.abc.net.au/collection/907" target="_blank" class="underline">https://iview.abc.net.au/collection/907</a></li>
+              <li><a href="https://www.abc.net.au/kidslisten?utm_source=chatgpt.com" target="_blank" class="underline">https://www.abc.net.au/kidslisten?utm_source=chatgpt.com</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+
+        <!-- RIGHT SIDE (TEXT) -->
+        <div class="space-y-4">
+
+          <p class="text-sm font-light leading-relaxed text-neutral-600">
+            A variety of evidence-informed resources are available to educate educators about social isolation and how to build social connection. The Raising Children Network offers tips to support children's social skills and Beyond Blue has resources about loneliness and wellbeing. The AIHW has data on social isolation in Australia and ACECQA has resources on inclusive practices and relationships (Australian Institute of Health and Welfare, 2023). These help educators create responsive and connected environments.
+          </p>
+
+          <p class="text-sm font-light leading-relaxed text-neutral-600">
+            Books like Patrice Karst's The Invisible String teach children they are never alone, even when physically separated, and reduce loneliness. Other books such as All Are Welcome, Whoever You Are and Only One You encourage acceptance, diversity and inclusion. Teachers can use these with group discussions to promote empathy and acceptance.
+          </p>
+
+          <p class="text-sm font-light leading-relaxed text-neutral-600">
+            Teaching resources like Bluey: Series 1 Camping help develop social and emotional skills in children through friendship, communication and separation. Other resources such as Mister Rogers’ Neighborhood, Tinga Tinga Tales, and Arthur: So Funny I Forgot to Laugh demonstrate kindness, collaboration, empathy and healthy relationship skills. This content can be incorporated through storytelling, role-play and group conversations for building resilience, confidence, and positive peer relationships. They also support a sense of community and awareness of others' emotions.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <!-- Divider -->
+  <div class="max-w-7xl mx-auto px-6"><div class="border-t border-neutral-200/50"></div></div>
+
+  <!-- ==================== SECTION 5: CRISIS AND EMERGENCY CONTEXTS ==================== -->
+  <section id="crisis" class="py-20 md:py-24 bg-neutral-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="mb-12">
+        <span class="inline-block text-xs font-semibold tracking-[0.1em] uppercase text-neutral-400 font-mono mb-3"></span>
+        <div class="flex items-start gap-5">
+          <div class="w-14 h-14 rounded-2xl section-icon-box flex items-center justify-center flex-shrink-0">
+            <span class="iconify text-neutral-50" data-icon="lucide:shield-alert" data-width="26" data-height="26"></span>
+          </div>
+          <div>
+            <h2 class="font-oswald text-[30px] md:text-[36px] font-medium tracking-[-0.025em] uppercase" style="color:#991b1b;">Crisis and Emergency Contexts</h2>
+            <p class="mt-2 text-base md:text-lg font-light leading-relaxed text-neutral-500 max-w-2xl"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="space-y-3">
+        <!-- 5.1 -->
+        <div class="section-card bg-white rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">01</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Understanding the Context</h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-100 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Displacement is when families and children are displaced from their homes because of war, natural disasters, family violence, homelessness and other emergencies. The experience can be short or long term and occur within Australia, or as part of migration and refugee experiences. This is a significant context for early childhood education as relationships, routines and secure environments are important for young children's health and development (ACECQA, 2022).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Sociologically, Bronfenbrenner's ecological systems theory suggests that children are shaped by their family, community and broader systems. Displacement can disrupt these systems, leading to feelings of uncertainty, anxiety and disrupted learning. Trauma-informed theory also understands that children's emotions, behaviours, and security are impacted by unexpected loss, change, and uncertainty.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Today, bushfires, floods, homelessness and global humanitarian emergencies shape displacement in Australia. Australia is also home to refugee and migrant families resettling following displacement. This is an issue that affects a wide range of communities and calls for culturally sensitive, inclusive and trauma-informed approaches to early learning and development.</p>
+                </div>
+            
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/72aa0815-48e5-4844-810e-3a111ad8e5c6.png?auth_key=1877365226-86a89b6e147f41ad96d18abbfe4cb8b9-0-001ba17405a0350b1f729d6be98b2ac7" alt="Crisis and Emergency" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5.2 -->
+        <div class="section-card bg-white rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">02</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Impact on Children and Families  </h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-100 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Forced displacement has profound impacts on a child's development, learning and well-being. The abrupt separation from home, routine, possessions, and relationships can instil fear, anxiety and uncertainty. Preschool children may display distress, nightmares, isolation or aggression as they cope with change and anxiety. This may lead to lowered attention, self-esteem and motivation for learning (ACECQA, 2022).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Families may also face challenges, with parents who have experienced trauma, homelessness or financial stressors, being less available to offer emotional support. Children may also face disruptions in their education and access to health and social support.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Early childhood services need to provide safe, stable and supportive spaces in this context. Teachers may need to offer additional emotional support, flexible schedules, and trauma-sensitive behaviour management. Effective partnerships with families are crucial to inform understandings of children's needs. Services may also need to make referrals to housing, counselling and settlement support to ensure children are safe, supported and able to engage and learn.</p>
+                </div>
+            
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/bfb3ae07-b846-4dee-b7c1-da4b65a8588c.png?auth_key=1877365466-3ae6bd9d3c734db699dfa0475a4e4b61-0-184232692842b385200adf8d1b339a3c" alt="Crisis and Emergency" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5.3 -->
+        <div class="section-card bg-white rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">03</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Social Policy and Australian Responses  </h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-100 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Australia has policies and programs to support families affected by displacement, homelessness and humanitarian disasters. At the national level, the Disaster Recovery Funding Arrangements (DRFA) assist families after bushfires, floods, and other emergencies, and the Humanitarian Settlement Program (HSP) supports refugee families with housing, education and settlement support. In South Australia, families in crisis and temporary displacement have access to emergency relief and housing assistance services (Australian Government Department of Home Affairs, 2020).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">There have been growing levels of displacement from major bushfires and floods, and growing pressures on housing, in recent years, and Australia continues to receive refugee families because of international conflict. This demonstrates the continued need for responsive supports.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">These policy responses support early childhood practice through trauma-sensitive, inclusive and resilient practices. Services can offer fee waivers, ongoing learning, support and referrals to families during crises. Teachers are also required to support safe environments, routine and assist children with the process of rebuilding safety, belonging and participation following displacement.</p>
+                </div>
+            
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/9807454f-9fc5-405c-a783-b987dc3449d8.png?auth_key=1877365631-3498c0282cec4d1586af3fd0084fcf75-0-c436af396632cdff064c8a5d55962da3" alt="Crisis and Emergency" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5.4 -->
+        <<div class="section-card bg-white rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">04</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Strategies for Practice   </h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-100 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Support for children and families during displacement can be provided by early childhood teachers and educators using trauma-informed and resilience-building strategies. First, establishing a safe, predictable environment with routines is essential for children's security post-disruption. Second, teachers can connect with families to build trust and understand children's needs and experiences (ACECQA, 2022).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Third, offering play-based activities, such as drawing, storytelling and pretend play, supports children to express and explore emotions and experiences. Fourth, employing inclusive and culturally responsive practices supports children from refugee or migrant backgrounds by honouring language, identity, and family culture. Fifth, linking families to community services, including housing, counselling or settlement services, enhances wellbeing.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">In practice, teachers can assess children's emotional needs, provide reassurance and support flexible learning goals during transition periods. Engaging with families and working with professionals bridge the home-early childhood education setting gap. These approaches foster children's emotional healing, self-esteem, belonging and continued learning.</p>
+                </div>
+            
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/28676163-754a-48d4-98cc-ba33b7addafc.png?auth_key=1877365782-6a79ea886f234a5c816ccc0160a52d53-0-be9cde05bee283a166473cda783d4d74" alt="Crisis and Emergency" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- 5.5 -->
+        <<div class="section-card bg-white rounded-2xl border border-neutral-200/50 overflow-hidden">
+          <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+            <div class="flex items-center gap-4">
+              <span class="sub-section-num text-sm font-medium text-neutral-400">05</span>
+              <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">Community and Professional Partnerships</h3>
+            </div>
+            <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down" data-width="20" data-height="20"></span>
+          </button>
+          <div class="accordion-content px-6 md:px-8">
+            <div class="pb-6 border-t border-neutral-100 pt-5">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">Community and professional partnerships are vital in assisting children and families affected by displacement. Notable services include the Australian Red Cross, which offers emergency and recovery services, and Settlement Services International (SSI), which supports refugee and migrant families with housing, education and integration. Housing SA and homelessness services support families to find temporary or permanent housing. Child and Family Health Services promote the health and well-being of children, and social workers, psychologists and counsellors offer emotional support.</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">These services can work with early childhood services through referrals, planning and collective strategies to support families. Teachers and educators can communicate with services (with family permission), attend case meetings and refer families to emergency services (Australian Red Cross, 2022).</p>
+                  <p class="text-sm font-light leading-relaxed text-neutral-600">These collaborations can build a systemic framework of support and ease the pressures on families and children. They also allow educators to plan accordingly, ensuring children who have experienced displacement are safe, included, and supported to learn and develop.</p>
+                </div>
+            
+                <div class="rounded-xl overflow-hidden">
+                  <img src="https://z-cdn-media.chatglm.cn/files/ca963b25-3614-4856-ad05-cdac1d2936d6.png?auth_key=1877365945-05e5fa276aea470cb1ad44ade366edd1-0-e417c4d30b827f0ee70d752e84d596d9" alt="Crisis and Emergency" class="w-full h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- 5.6 -->
+        <div class="section-card bg-neutral-50 rounded-2xl border border-neutral-200/50 overflow-hidden">
+
+  <button onclick="toggleAccordion(this)" class="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left">
+    <div class="flex items-center gap-4">
+      <span class="sub-section-num text-sm font-medium text-neutral-400">06</span>
+      <h3 class="text-base md:text-lg font-medium tracking-[-0.025em] text-neutral-900">
+        Resources for Educators and Children
+      </h3>
+    </div>
+    <span class="iconify accordion-icon text-neutral-400 flex-shrink-0 ml-4" data-icon="lucide:chevron-down"></span>
+  </button>
+
+  <div class="accordion-content px-6 md:px-8">
+    <div class="pb-6 border-t border-neutral-200/50 pt-5">
+
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <!-- LEFT SIDE (LINKS) -->
+        <div class="space-y-6">
+
+          <!-- Website -->
+          <div>
+            <h4 class="text-sm font-semibold text-neutral-800 mb-2">Website</h4>
+            <ul class="text-sm text-neutral-600 space-y-2">
+              <li><a href="https://www.redcross.org.au/emergencies/" target="_blank" class="underline">https://www.redcross.org.au/emergencies/</a></li>
+              <li><a href="https://www.ssi.org.au/" target="_blank" class="underline">https://www.ssi.org.au/</a></li>
+              <li><a href="https://www.unicef.org.au/supporting-parents-and-families-through-disasters-and-emergencies?srsltid=AfmBOoqrkzfzojijqP-bTxOV3o2JyDML2AfxcV5-2rhIK4HmU5omSfb7" target="_blank" class="underline">https://www.unicef.org.au/supporting-parents-and-families-through-disasters-and-emergencies?srsltid=AfmBOoqrkzfzojijqP-bTxOV3o2JyDML2AfxcV5-2rhIK4HmU5omSfb7</a></li>
+              <li><a href="https://raisingchildren.net.au/grown-ups/services-support." target="_blank" class="underline">https://raisingchildren.net.au/grown-ups/services-support.</a></li>
+            </ul>
+          </div>
+
+          <!-- Book -->
+          <div>
+            <h4 class="text-sm font-semibold text-neutral-800 mb-2">Book</h4>
+            <ul class="text-sm text-neutral-600 space-y-2">
+              <li><a href="https://www.qbd.com.au/my-two-blankets/irena-kobald-freya-blackwood/9781760501419/" target="_blank" class="underline">https://www.qbd.com.au/my-two-blankets/irena-kobald-freya-blackwood/9781760501419/</a></li>
+              <li><a href="https://francescasanna.com/portfolio/the-journey-2/" target="_blank" class="underline">https://francescasanna.com/portfolio/the-journey-2/</a></li>
+              <li><a href="https://www.qbd.com.au/the-colour-monster/anna-llenas/9781783704231/" target="_blank" class="underline">https://www.qbd.com.au/the-colour-monster/anna-llenas/9781783704231/</a></li>
+              <li><a href="https://www.goodreads.com/book/show/56946671-a-shelter-for-sadness" target="_blank" class="underline">https://www.goodreads.com/book/show/56946671-a-shelter-for-sadness</a></li>
+            </ul>
+          </div>
+
+          <!-- Video -->
+          <div>
+            <h4 class="text-sm font-semibold text-neutral-800 mb-2">Video</h4>
+            <ul class="text-sm text-neutral-600 space-y-2">
+              <li><a href="https://www.youtube.com/watch?v=5oXnIJVZD-w" target="_blank" class="underline">https://www.youtube.com/watch?v=5oXnIJVZD-w</a></li>
+              <li><a href="https://www.youtube.com/watch?v=2g7dngTP-r4" target="_blank" class="underline">https://www.youtube.com/watch?v=2g7dngTP-r4</a></li>
+              <li><a href="https://www.youtube.com/watch?v=DnTTXLo-S5M" target="_blank" class="underline">https://www.youtube.com/watch?v=DnTTXLo-S5M</a></li>
+              <li><a href="https://www.youtube.com/watch?v=KyDappOxDho&list=RDKyDappOxDho&start_radio=1" target="_blank" class="underline">https://www.youtube.com/watch?v=KyDappOxDho&list=RDKyDappOxDho&start_radio=1</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+
+        <!-- RIGHT SIDE (TEXT) -->
+        <div class="space-y-4">
+
+          <p class="text-sm font-light leading-relaxed text-neutral-600">
+            A variety of evidence-informed resources are available to educate educators about social isolation and how to build social connection. The Raising Children Network offers tips to support children's social skills and Beyond Blue has resources about loneliness and wellbeing. The AIHW has data on social isolation in Australia and ACECQA has resources on inclusive practices and relationships (Australian Institute of Health and Welfare, 2023). These help educators create responsive and connected environments.
+          </p>
+
+          <p class="text-sm font-light leading-relaxed text-neutral-600">
+            Books like Patrice Karst's The Invisible String teach children they are never alone, even when physically separated, and reduce loneliness. Other books such as All Are Welcome, Whoever You Are and Only One You encourage acceptance, diversity and inclusion. Teachers can use these with group discussions to promote empathy and acceptance.
+          </p>
+
+          <p class="text-sm font-light leading-relaxed text-neutral-600">
+            Teaching resources like Bluey: Series 1 Camping help develop social and emotional skills in children through friendship, communication and separation. Other resources such as Mister Rogers’ Neighborhood, Tinga Tinga Tales, and Arthur: So Funny I Forgot to Laugh demonstrate kindness, collaboration, empathy and healthy relationship skills. This content can be incorporated through storytelling, role-play and group conversations for building resilience, confidence, and positive peer relationships. They also support a sense of community and awareness of others' emotions.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <!-- Divider -->
+  <div class="max-w-7xl mx-auto px-6"><div class="border-t border-neutral-200/50"></div></div>
+
+ <!-- ==================== ABOUT SECTION ==================== -->
+<section id="about" class="py-20 md:py-24">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="mb-12">
+      <span class="inline-block text-xs font-semibold tracking-[0.1em] uppercase font-mono mb-3" style="color:#db2777;"></span>
+      <div class="flex items-start gap-5">
+        <div class="w-14 h-14 rounded-2xl section-icon-box flex items-center justify-center flex-shrink-0">
+          <span class="iconify text-white" data-icon="lucide:info" data-width="26" data-height="26"></span>
+        </div>
+        <div>
+          <h2 class="font-oswald text-[30px] md:text-[36px] font-medium tracking-[-0.025em] uppercase" style="color:#9d174d;">About</h2>
+          <p class="mt-2 text-base md:text-lg font-light leading-relaxed text-neutral-500 max-w-2xl">
+            Learn about the purpose and focus of this educational portfolio.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div class="ref-card" style="background:#fdf2f8; border-color:#fbcfe8;">
+        <h3 class="text-base font-semibold mb-4" style="color:#9d174d;">About This Portfolio</h3>
+
+        <p class="text-sm font-light leading-relaxed text-neutral-600 mb-4">
+          Early Childhood services play key role in helping children and families deal with a diverse of social, cultural, economic, health, and crisis-related issues. Family relationships, home environments, community support, and broader societal situations all have a significant impact on children's early development. As a result, early childhood teachers need to understand how children's learning, wellbeing, identity, and involvement in early learning environments are impacted by external contexts. Research shows that, by offering stability, a sense of belonging and quality learning experiences, responsive early childhood education can enhance outcomes for kids who are disadvantaged and stressed (Inquiry Report - Mental Health, 2020).
+        </p>
+
+        <p class="text-sm font-light leading-relaxed text-neutral-600">
+          This study explores five important contexts affecting Australian children and families: housing stress, social or geographical isolation, First Nations family experiences, parental mental illness, and displacement caused by crisis or emergency. Every section examines the context using sociological theory, Australian policy responses, evidence-based strategies, community partnerships, and practical resources for teachers and children. The portfolio is followed by the Early Years Learning Framework (EYLF V2.0), which promotes equity, inclusion, secure relationships, and respect for diversity (ACECQA, 2022). Understanding these contexts allows teachers to create culturally safe, inclusive, and trauma-informed environments where all children can thrive.
+        </p>
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-lg border border-pink-100">
+        <img 
+          src="https://z-cdn-media.chatglm.cn/files/5bea2534-2e18-4c4a-87f7-e6a20abbf4dd.png?auth_key=1877374435-28a91061e8e14fa0a2e3b8e88e7dcaaa-0-83c1e7c5e03ad6894748f685731b9269" 
+          alt="Early Childhood Education" 
+          class="w-full h-full object-cover">
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Divider -->
+  <div class="max-w-7xl mx-auto px-6"><div class="border-t border-neutral-200/50"></div></div>
+
+  <!-- ==================== REFERENCE SECTION ==================== -->
+  <section id="reference" class="py-20 md:py-24">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="mb-12">
+        <span class="inline-block text-xs font-semibold tracking-[0.1em] uppercase font-mono mb-3" style="color:#0891b2;"></span>
+        <div class="flex items-start gap-5">
+          <div class="w-14 h-14 rounded-2xl section-icon-box flex items-center justify-center flex-shrink-0">
+            <span class="iconify text-white" data-icon="lucide:book-marked" data-width="26" data-height="26"></span>
+          </div>
+          <div>
+            <h2 class="font-oswald text-[30px] md:text-[36px] font-medium tracking-[-0.025em] uppercase" style="color:#164e63;">References</h2>
+            <p class="mt-2 text-base md:text-lg font-light leading-relaxed text-neutral-500 max-w-2xl"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ref-card" style="background:#ecfeff; border-color:#a5f3fc;">
+  <div class="flex items-center gap-3 mb-4">
+    <div class="w-9 h-9 rounded-lg flex items-center justify-center" style="background:linear-gradient(135deg,#06b6d4,#0891b2);">
+      <span class="iconify text-white" data-icon="lucide:book-text"></span>
+    </div>
+    <h3 class="text-sm font-semibold" style="color:#164e63;">All References</h3>
+  </div>
+
+  <ul class="space-y-4 text-sm text-neutral-700 max-h-[600px] overflow-y-auto pr-2 leading-relaxed">
+
+    <li>ACECQA. (2022). Belonging, being and becoming: The early years learning framework for australia (V2.0). In ACECQA. 
+    <a href="https://www.acecqa.gov.au/sites/default/files/2023-01/EYLF-2022-V2.0.pdf" target="_blank">https://www.acecqa.gov.au/sites/default/files/2023-01/EYLF-2022-V2.0.pdf</a></li>
+
+    <li>ACECQA. (2020). Front cover Connections; A resource for early childhood educators about children’s wellbeing. 
+    <a href="https://www.acecqa.gov.au/sites/default/files/2020-12/AResourceForEarlyChildhoodEducatorsAboutChildrensWellbeing.pdf" target="_blank">https://www.acecqa.gov.au/sites/default/files/2020-12/AResourceForEarlyChildhoodEducatorsAboutChildrensWellbeing.pdf</a></li>
+
+    <li>ACECQA. (2016). Building partnerships with families. 
+    <a href="https://www.acecqa.gov.au/sites/default/files/acecqa/files/QualityInformationSheets/QualityArea6/QualityArea6BuildingPartnershipsWithFamilies.pdf" target="_blank">https://www.acecqa.gov.au/sites/default/files/acecqa/files/QualityInformationSheets/QualityArea6/QualityArea6BuildingPartnershipsWithFamilies.pdf</a></li>
+
+    <li>ACECQA. (2014). Talking about practice: Exploring Reconciliation in early childhood practice. 
+    <a href="https://www.acecqa.gov.au/sites/default/files/2020-12/TalkingAboutPractice-ExploringReconciliationInEarlyChildhood.pdf" target="_blank">https://www.acecqa.gov.au/sites/default/files/2020-12/TalkingAboutPractice-ExploringReconciliationInEarlyChildhood.pdf</a></li>
+
+    <li>Australian Institute of Health and Welfare. (2023). 
+    <a href="https://www.aihw.gov.au" target="_blank">https://www.aihw.gov.au</a></li>
+
+    <li>ACOSS AND UNSW SYDNEY POVERTY IN AUSTRALIA 2020. (2020). 
+    <a href="https://povertyandinequality.acoss.org.au/wp-content/uploads/2020/02/Poverty-in-Australia-2020_Part-1_Overview.pdf" target="_blank">https://povertyandinequality.acoss.org.au/wp-content/uploads/2020/02/Poverty-in-Australia-2020_Part-1_Overview.pdf</a></li>
+
+    <li>ABC Kids. (2021, May 31). Walking Together: Reconciliation Special | Play School | ABC Kids. YouTube. 
+    <a href="https://www.youtube.com/watch?v=iao76dL9Eak" target="_blank">https://www.youtube.com/watch?v=iao76dL9Eak</a></li>
+
+    <li>ABC Kids. (2022, February 27). Koala | Languages of our Land | ABC Kids. YouTube. 
+    <a href="https://www.youtube.com/watch?v=xbVW_72Xt-g&list=PLNhKiphXqlW9rwNhbsablNIDYq2-ximZN" target="_blank">https://www.youtube.com/watch?v=xbVW_72Xt-g</a></li>
+
+    <li>ABC Kids listen. (2026, April 28). ABC Kids Listen. 
+    <a href="https://www.abc.net.au/kidslisten" target="_blank">https://www.abc.net.au/kidslisten</a></li>
+
+    <li>ABC Kids. (2021, July 5). Singing Baby Animals To Sleep | Tjitji Lullaby | ABC Kids. YouTube. 
+    <a href="https://www.youtube.com/watch?v=KyDappOxDho" target="_blank">https://www.youtube.com/watch?v=KyDappOxDho</a></li>
+
+    <li>Australian Children's Television Foundation. (2020, June 23). Little J and Big Cuz - Series 2 Trailer. YouTube. 
+    <a href="https://www.youtube.com/watch?v=LP2z33Zk7sI" target="_blank">https://www.youtube.com/watch?v=LP2z33Zk7sI</a></li>
+
+    <li>Australian Bureau of Statistics. (2024). Aboriginal and Torres Strait Islander Peoples. 
+    <a href="https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples" target="_blank">https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples</a></li>
+
+    <li>Australian Red Cross. (2022). Emergencies and disasters. 
+    <a href="https://www.redcross.org.au/emergencies/" target="_blank">https://www.redcross.org.au/emergencies/</a></li>
+
+    <li>Australian Government Department of Home Affairs. (2020). Humanitarian settlement program. 
+    <a href="https://immi.homeaffairs.gov.au/settling-in-australia/humanitarian-settlement-program" target="_blank">https://immi.homeaffairs.gov.au/settling-in-australia/humanitarian-settlement-program</a></li>
+
+    <li>AUSSIE DVDS, CDS & VHS (RYAN). (2019). Play School Trailer. YouTube. 
+    <a href="https://www.youtube.com/watch?v=5oXnIJVZD-w" target="_blank">https://www.youtube.com/watch?v=5oXnIJVZD-w</a></li>
+
+    <li>Baby Business. (2019). Magabala Books. 
+    <a href="https://www.magabala.com/products/baby-business" target="_blank">https://www.magabala.com/products/baby-business</a></li>
+
+    <li>Beyond Blue. (2025). Your mental health matters. 
+    <a href="https://www.beyondblue.org.au/" target="_blank">https://www.beyondblue.org.au/</a></li>
+
+    <li>Bluey: Series 1 Camping. ABC iView. 
+    <a href="https://iview.abc.net.au/video/CH1702Q051S00" target="_blank">https://iview.abc.net.au/video/CH1702Q051S00</a></li>
+
+    <li>Bowlby, J. (1988). A Secure Base. 
+    <a href="https://www.increaseproject.eu/images/DOWNLOADS/IO2/HU/CURR_M4-A13_Bowlby_(EN-only)_20170920_HU_final.pdf" target="_blank">https://www.increaseproject.eu/images/DOWNLOADS/IO2/HU/CURR_M4-A13_Bowlby_(EN-only)_20170920_HU_final.pdf</a></li>
+
+    <li>Belonging (Botanical Garden sounds). ABC Kids Listen. 
+    <a href="https://www.abc.net.au/kidslisten/programs/soundwalks/belonging/13987828" target="_blank">https://www.abc.net.au/kidslisten/programs/soundwalks/belonging/13987828</a></li>
+
+    <li>Cooee Mittigar. Magabala Books. 
+    <a href="https://www.magabala.com/products/cooee-mittigar" target="_blank">https://www.magabala.com/products/cooee-mittigar</a></li>
+
+    <li>Connected Beginnings Program. 
+    <a href="https://www.education.gov.au/early-childhood/providers/extra-support/community-child-care-fund/connected-beginnings" target="_blank">https://www.education.gov.au/early-childhood/providers/extra-support/community-child-care-fund/connected-beginnings</a></li>
+
+    <li>Daniel Tiger - When You Feel So Mad. YouTube. 
+    <a href="https://www.youtube.com/watch?v=OrbN-nSTe-E" target="_blank">https://www.youtube.com/watch?v=OrbN-nSTe-E</a></li>
+
+    <li>Daniel Tiger - Feel Better Video. YouTube. 
+    <a href="https://www.youtube.com/watch?v=DnTTXLo-S5M" target="_blank">https://www.youtube.com/watch?v=DnTTXLo-S5M</a></li>
+
+    <li>Family. Magabala Books. 
+    <a href="https://www.magabala.com/products/family" target="_blank">https://www.magabala.com/products/family</a></li>
+
+    <li>Maddi’s Fridge. 
+    <a href="https://newsouthbooks.com.au/books/maddis-fridge/" target="_blank">https://newsouthbooks.com.au/books/maddis-fridge/</a></li>
+
+    <li>Arthur Video. YouTube. 
+    <a href="https://www.youtube.com/watch?v=0HkAn9gzgN8" target="_blank">https://www.youtube.com/watch?v=0HkAn9gzgN8</a></li>
+
+    <li>Inquiry report - Mental Health. 
+    <a href="https://www.pc.gov.au/inquiries-and-research/mental-health/report/" target="_blank">https://www.pc.gov.au/inquiries-and-research/mental-health/report/</a></li>
+
+    <li>Last Stop on Market Street. 
+    <a href="https://www.penguinrandomhouse.com/books/310757/last-stop-on-market-street-by-matt-de-la-pena-illustrated-by-christian-robinson/" target="_blank">https://www.penguinrandomhouse.com/books/310757/last-stop-on-market-street</a></li>
+
+    <li>Closing the Gap Report. 
+    <a href="https://www.niaa.gov.au/resource-centre/commonwealth-closing-gap-2023-annual-report-and-2024-implementation-plan" target="_blank">https://www.niaa.gov.au/resource-centre/commonwealth-closing-gap</a></li>
+
+    <li>NACCHO. 
+    <a href="https://www.naccho.org.au/" target="_blank">https://www.naccho.org.au/</a></li>
+
+    <li>PANDA. 
+    <a href="https://www.panda.org.au/articles/perinatal-anxiety-and-depression-signs-and-symptoms" target="_blank">https://www.panda.org.au/articles/perinatal-anxiety-and-depression-signs-and-symptoms</a></li>
+
+    <li>Rental Affordability Snapshot. 
+    <a href="https://www.anglicare.asn.au/publications/2025-rental-affordability-snapshot/" target="_blank">https://www.anglicare.asn.au/publications/2025-rental-affordability-snapshot/</a></li>
+
+    <li>UNICEF Australia. 
+    <a href="https://www.unicef.org.au/supporting-parents-and-families-through-disasters-and-emergencies" target="_blank">https://www.unicef.org.au/supporting-parents-and-families-through-disasters-and-emergencies</a></li>
+
+    <li>Reconciliation Toolkit. 
+    <a href="https://www.narragunnawali.org.au/reconciliation-toolkits" target="_blank">https://www.narragunnawali.org.au/reconciliation-toolkits</a></li>
+
+    <li>Sesame Workshop. 
+    <a href="https://www.youtube.com/watch?v=1QKxTDfGH-o" target="_blank">https://www.youtube.com/watch?v=1QKxTDfGH-o</a></li>
+
+    <li>Mister Rogers’ Neighborhood. 
+    <a href="https://www.misterrogers.org/watch/" target="_blank">https://www.misterrogers.org/watch/</a></li>
+
+    <li>Ruby Finds a Worry. 
+    <a href="https://www.youtube.com/watch?v=hIPMZGPF64c" target="_blank">https://www.youtube.com/watch?v=hIPMZGPF64c</a></li>
+
+    <li>When I’m Feeling Sad. 
+    <a href="https://www.resiliencekit.com.au/product/when-im-feeling-sad/" target="_blank">https://www.resiliencekit.com.au/product/when-im-feeling-sad/</a></li>
+
+    <li>Welcome, Child! 
+    <a href="https://www.magabala.com/products/welcome-child" target="_blank">https://www.magabala.com/products/welcome-child</a></li>
+
+  </ul>
+</div>
+
+
+
+      <!-- Section-by-section key references -->
+      <div class="rounded-2xl p-6 md:p-8" style="background:linear-gradient(135deg,#0f172a,#164e63);">
+        <p class="text-xs font-semibold tracking-[0.1em] uppercase text-cyan-300 mb-5">Key Resources by Section</p>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
+          <div>
+            <p class="text-xs font-semibold text-amber-300 mb-2">💛 Economic</p>
+            <ul class="space-y-1 text-xs font-light text-neutral-400">
+              <li>AEDC Reports</li><li>The Smith Family</li><li>Services Australia</li><li>COAG Reform Council</li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-xs font-semibold text-blue-300 mb-2">💙 Social</p>
+            <ul class="space-y-1 text-xs font-light text-neutral-400">
+              <li>AIFS Publications</li><li>Raising Children Network</li><li>eSafety Commissioner</li><li>ECA Position Statements</li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-xs font-semibold text-violet-300 mb-2">💜 Cultural</p>
+            <ul class="space-y-1 text-xs font-light text-neutral-400">
+              <li>SNAICC Resources</li><li>EYLF Framework</li><li>Scanlon Foundation</li><li>First Nations Literature</li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-xs font-semibold text-emerald-300 mb-2">💚 Health</p>
+            <ul class="space-y-1 text-xs font-light text-neutral-400">
+              <li>Headspace</li><li>Smiling Mind App</li><li>NHMRC Guidelines</li><li>beyondblue</li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-xs font-semibold text-red-300 mb-2">❤️ Crisis</p>
+            <ul class="space-y-1 text-xs font-light text-neutral-400">
+              <li>AIDR Handbook</li><li>Emerging Minds</li><li>Birdie's Tree Books</li><li>Mandatory Reporting Guides</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-neutral-900 text-neutral-50 py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-3 gap-12">
+        <!-- Brand -->
+        <div class="space-y-5">
+          <img src="https://z-cdn-media.chatglm.cn/files/bfbcfa92-8e17-4cf3-a750-a43dacaa0aca.png?auth_key=1877110271-a73d8fd435534c6484c16e907910e594-0-dc97d2fe62ba7e11bd0da3568cd30b63" alt="Logo" class="h-14 w-auto object-contain brightness-0 invert opacity-90">
+          <p class="text-sm font-light leading-relaxed text-neutral-400">A comprehensive educational resource exploring the diverse contexts shaping children's lives in contemporary Australian society.</p>
+        </div>
+        <!-- Sections -->
+        <div>
+          <h4 class="text-xs font-semibold tracking-[0.1em] uppercase text-neutral-500 mb-4">Sections</h4>
+          <div class="space-y-3">
+            <a href="#economic" class="block text-sm font-light text-neutral-400 hover:text-neutral-50 transition-colors">Economic Contexts</a>
+            <a href="#social" class="block text-sm font-light text-neutral-400 hover:text-neutral-50 transition-colors">Social Contexts</a>
+            <a href="#cultural" class="block text-sm font-light text-neutral-400 hover:text-neutral-50 transition-colors">Cultural and Diversity Contexts</a>
+            <a href="#health" class="block text-sm font-light text-neutral-400 hover:text-neutral-50 transition-colors">Health and Wellbeing Contexts</a>
+            <a href="#crisis" class="block text-sm font-light text-neutral-400 hover:text-neutral-50 transition-colors">Crisis and Emergency Contexts</a>
+            <a href="#about" class="block text-sm font-light hover:text-pink-300 transition-colors" style="color:#f9a8d4;">About</a>
+            <a href="#reference" class="block text-sm font-light hover:text-cyan-300 transition-colors" style="color:#67e8f9;">Reference</a>
+          </div>
+        </div>
+        <!-- Subsections -->
+        <div>
+          <h4 class="text-xs font-semibold tracking-[0.1em] uppercase text-neutral-500 mb-4">Subsection Topics</h4>
+          <div class="space-y-3">
+            <span class="block text-sm font-light text-neutral-400">Understanding the Context</span>
+            <span class="block text-sm font-light text-neutral-400">Impact on Children and Families</span>
+            <span class="block text-sm font-light text-neutral-400">Social Policy and Australian Responses</span>
+            <span class="block text-sm font-light text-neutral-400">Strategies for Practice</span>
+            <span class="block text-sm font-light text-neutral-400">Community and Professional Partnerships</span>
+            <span class="block text-sm font-light text-neutral-400">Resources for Educators and Children</span>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-neutral-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-xs text-neutral-500">© 2025 Working With Children, Families, and Communities in Contemporary Society</p>
+        <button onclick="window.scrollTo({top:0, behavior:'smooth'})" class="flex items-center gap-2 text-xs text-neutral-500 hover:text-neutral-300 transition-colors">
+          Back to top
+          <span class="iconify" data-icon="lucide:arrow-up" data-width="14" data-height="14"></span>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  
+</body>
+</html>

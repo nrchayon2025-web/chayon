@@ -1,0 +1,123 @@
+:root {
+      --clr-eco:   #f59e0b; /* amber  - Economic */
+      --clr-eco-bg: #fffbeb;
+      --clr-soc:   #3b82f6; /* blue   - Social */
+      --clr-soc-bg: #eff6ff;
+      --clr-cul:   #8b5cf6; /* violet - Cultural */
+      --clr-cul-bg: #f5f3ff;
+      --clr-hlt:   #10b981; /* emerald - Health */
+      --clr-hlt-bg: #ecfdf5;
+      --clr-cri:   #ef4444; /* red    - Crisis */
+      --clr-cri-bg: #fef2f2;
+      --clr-abt:   #ec4899; /* pink   - About */
+      --clr-ref:   #06b6d4; /* cyan   - Reference */
+    }
+    * { font-family: 'Inter', sans-serif; font-feature-settings: 'cv11', 'ss01'; }
+    ::selection { background-color: #ddd6fe; color: #4c1d95; }
+    html { scroll-behavior: smooth; }
+    body { background: #f8fafc; }
+
+    /* --- NAV --- */
+    .glass-nav { background: rgba(255,255,255,0.92); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 2px solid transparent; background-clip: padding-box; }
+    .glass-nav::after { content:''; position:absolute; bottom:-2px; left:0; right:0; height:2px; background: linear-gradient(90deg,#f59e0b,#3b82f6,#8b5cf6,#10b981,#ef4444,#ec4899,#06b6d4); }
+
+    .nav-link { transition: color 0.15s ease; position: relative; }
+    .nav-link:hover { color: #171717; }
+    .nav-link::after { content:''; position:absolute; bottom:-4px; left:0; right:0; height:2px; border-radius:999px; transform:scaleX(0); transition:transform .2s ease; }
+    .nav-link[href="#economic"]::after  { background: var(--clr-eco); }
+    .nav-link[href="#social"]::after    { background: var(--clr-soc); }
+    .nav-link[href="#cultural"]::after  { background: var(--clr-cul); }
+    .nav-link[href="#health"]::after    { background: var(--clr-hlt); }
+    .nav-link[href="#crisis"]::after    { background: var(--clr-cri); }
+    .nav-link[href="#about"]::after     { background: var(--clr-abt); }
+    .nav-link[href="#reference"]::after { background: var(--clr-ref); }
+    .nav-link:hover::after { transform:scaleX(1); }
+
+    /* --- ACCORDION --- */
+    .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.5s ease-in-out, padding 0.3s ease; }
+    .accordion-content.open { max-height: 2000px; }
+    .accordion-icon { transition: transform 0.3s ease; }
+    .accordion-icon.rotated { transform: rotate(180deg); }
+    .section-card { transition: box-shadow 0.2s ease, transform 0.2s ease; }
+    .section-card:hover { transform: translateY(-1px); }
+
+    .sub-section-num { font-family: 'Oswald', sans-serif; }
+    .hero-gradient { background: linear-gradient(135deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.25) 100%); }
+
+    /* --- SECTION COLOUR ACCENTS --- */
+    #economic .section-card { border-left: 4px solid var(--clr-eco); }
+    #economic .section-card button:hover { background: var(--clr-eco-bg); }
+    #economic .sub-section-num { color: var(--clr-eco); }
+
+    #social .section-card { border-left: 4px solid var(--clr-soc); }
+    #social .section-card button:hover { background: var(--clr-soc-bg); }
+    #social .sub-section-num { color: var(--clr-soc); }
+
+    #cultural .section-card { border-left: 4px solid var(--clr-cul); }
+    #cultural .section-card button:hover { background: var(--clr-cul-bg); }
+    #cultural .sub-section-num { color: var(--clr-cul); }
+
+    #health .section-card { border-left: 4px solid var(--clr-hlt); }
+    #health .section-card button:hover { background: var(--clr-hlt-bg); }
+    #health .sub-section-num { color: var(--clr-hlt); }
+
+    #crisis .section-card { border-left: 4px solid var(--clr-cri); }
+    #crisis .section-card button:hover { background: var(--clr-cri-bg); }
+    #crisis .sub-section-num { color: var(--clr-cri); }
+
+    /* --- SECTION HEADER ICONS --- */
+    #economic   .section-icon-box { background: linear-gradient(135deg, #f59e0b, #d97706); }
+    #social     .section-icon-box { background: linear-gradient(135deg, #3b82f6, #2563eb); }
+    #cultural   .section-icon-box { background: linear-gradient(135deg, #8b5cf6, #7c3aed); }
+    #health     .section-icon-box { background: linear-gradient(135deg, #10b981, #059669); }
+    #crisis     .section-icon-box { background: linear-gradient(135deg, #ef4444, #dc2626); }
+    #about      .section-icon-box { background: linear-gradient(135deg, #ec4899, #db2777); }
+    #reference  .section-icon-box { background: linear-gradient(135deg, #06b6d4, #0891b2); }
+
+    /* --- SECTION BG STRIPES --- */
+    #economic  { background: linear-gradient(180deg,#fffbeb 0%,#f8fafc 100%); }
+    #social    { background: linear-gradient(180deg,#eff6ff 0%,#f8fafc 100%); }
+    #cultural  { background: linear-gradient(180deg,#f5f3ff 0%,#f8fafc 100%); }
+    #health    { background: linear-gradient(180deg,#ecfdf5 0%,#f8fafc 100%); }
+    #crisis    { background: linear-gradient(180deg,#fef2f2 0%,#f8fafc 100%); }
+    #about     { background: linear-gradient(180deg,#fdf2f8 0%,#f8fafc 100%); }
+    #reference { background: linear-gradient(180deg,#ecfeff 0%,#f8fafc 100%); }
+
+    /* --- OVERVIEW ICONS --- */
+    .ov-eco  { background: linear-gradient(135deg,#fef3c7,#fde68a); color: #92400e; }
+    .ov-soc  { background: linear-gradient(135deg,#dbeafe,#bfdbfe); color: #1e40af; }
+    .ov-cul  { background: linear-gradient(135deg,#ede9fe,#ddd6fe); color: #5b21b6; }
+    .ov-hlt  { background: linear-gradient(135deg,#d1fae5,#a7f3d0); color: #065f46; }
+    .ov-cri  { background: linear-gradient(135deg,#fee2e2,#fecaca); color: #991b1b; }
+    .ov-abt  { background: linear-gradient(135deg,#fce7f3,#fbcfe8); color: #9d174d; }
+    .ov-ref  { background: linear-gradient(135deg,#cffafe,#a5f3fc); color: #164e63; }
+
+    /* --- HERO BADGES --- */
+    .hero-badge { background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.10); border: 1px solid rgba(0,0,0,0.06); }
+    .hero-badge-icon { background: linear-gradient(135deg,#667eea,#764ba2); }
+
+    /* --- TAGS --- */
+    .tag-eco { background:#fef3c7; color:#92400e; }
+    .tag-soc { background:#dbeafe; color:#1e40af; }
+    .tag-cul { background:#ede9fe; color:#5b21b6; }
+    .tag-hlt { background:#d1fae5; color:#065f46; }
+    .tag-cri { background:#fee2e2; color:#991b1b; }
+
+    /* --- PRACTICE PRINCIPLES BOXES --- */
+    #economic  .practice-box { background: linear-gradient(135deg,#78350f,#92400e); }
+    #social    .practice-box { background: linear-gradient(135deg,#1e3a8a,#1e40af); }
+    #cultural  .practice-box { background: linear-gradient(135deg,#4c1d95,#5b21b6); }
+    #health    .practice-box { background: linear-gradient(135deg,#064e3b,#065f46); }
+    #crisis    .practice-box { background: linear-gradient(135deg,#7f1d1d,#991b1b); }
+
+    /* --- FOOTER --- */
+    footer { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+
+    @media (max-width: 767px) {
+      .mobile-menu { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+      .mobile-menu.open { max-height: 800px; }
+    }
+
+    /* --- ABOUT & REFERENCE SECTIONS --- */
+    .ref-card { border-radius: 16px; padding: 20px; border: 1px solid rgba(0,0,0,0.07); transition: transform .2s, box-shadow .2s; }
+    .ref-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.10); }
